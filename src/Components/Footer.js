@@ -1,11 +1,10 @@
 import React from 'react';
 
-
 class Footer extends React.Component {
  
     render() { 
         return ( 
-
+<div className="container">
 <footer className="pt-4 my-md-5 pt-md-5 border-top">
     <div className="row">
       <div className="col-12 col-md">
@@ -43,6 +42,7 @@ class Footer extends React.Component {
       </div>
     </div>
   </footer>
+  </div>
  
          );
     }

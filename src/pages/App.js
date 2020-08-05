@@ -4,6 +4,8 @@ import Price from  '../components/Price';
 import Prices from '../components/Prices';
 import Footer from '../components/Footer';
 
+import { data } from '../utils/mocks/data';
+
 function App() {
   return (
     <div className="App">
@@ -18,7 +20,7 @@ function App() {
         {
          name: "Intagram",
          url: "http://instagram.com"
-       },
+        },
 
        {
          name: "Twitter",
@@ -35,7 +37,7 @@ function App() {
        button = "Registrate"
          />
       <Price />
-      <Prices />
+      <Prices datos= { data } />
       <Footer /> 
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-//Los componentes tipo función son stateles
+//Los componentes tipo función son stateles, sin estado
 
 
 export default function Header (props) {
