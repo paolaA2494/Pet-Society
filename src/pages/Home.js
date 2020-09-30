@@ -1,6 +1,6 @@
 import React from 'react';
-import Price from  '../components/Price';
-import Prices from '../components/Prices';
+import Price from  '../Components/Price';
+import Prices from '../Components/Prices';
 import { data } from '../utils/mocks/data';
 
 function Home() {
